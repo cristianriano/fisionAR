@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{00EE7CD1-83A9-9727-9D90-4F8FB6828329}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT;VUFORIA_ANDROID_SETTINGS;NATIVE_PLUGINS_LITE_VERSION;USES_ADDRESS_BOOK;USES_NETWORK_CONNECTIVITY;USES_SHARING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\AssetStoreProductUtility\AssetStoreProduct\Demo\Scripts\DemoGUIWindow.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\AssetStoreProductUtility\AssetStoreProduct\Demo\Scripts\DemoMainMenu.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\AssetStoreProductUtility\AssetStoreProduct\Demo\Scripts\DemoSubMenu.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\AssetStoreProductUtility\AssetStoreProduct\Scripts\Internal\Constants\Constants.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\AssetStoreProductUtility\AssetStoreProduct\Scripts\Internal\DataTypes\UpdateInfo\ProductUpdateInfo.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\AssetStoreProductUtility\AssetStoreProduct\Scripts\Internal\PromptWindow\UpdatePromptWindow.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\AssetStoreProductUtility\AssetStoreProduct\Scripts\Product\AssetStoreProduct.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\AssetStoreProductUtility\AssetStoreProduct\Scripts\Product\IAssetStoreProduct.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\DesignPatterns\Scripts\ObserverPattern\IObserver.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\DesignPatterns\Scripts\ObserverPattern\ObserverPattern.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\DesignPatterns\Scripts\SingletonPattern\ISingleton.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\DesignPatterns\Scripts\SingletonPattern\SingletonPattern.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Automators\Script\AndroidManifest\AndroidManifestGenerator.Feature.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Automators\Script\AndroidManifest\AndroidManifestGenerator.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Automators\Script\GlobalDefines\GlobalDefinesManager.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Automators\Script\StrippingBlacklist\StrippingBlacklistGenerator.BlacklistedAssembly.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Automators\Script\StrippingBlacklist\StrippingBlacklistGenerator.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\Assets\AssetsExtension.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\Component\ComponentExtensions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\DateTime\DateTimeExtensions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\Enumeration\EnumerationExtensions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\GameObject\GameObjectExtensions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\GenericTypes\IDictionaryExtensions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\Generics\GenericsExtension.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\IO\IOExtensions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\MonoBehaviour\MonoBehaviourExtensions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\PlayerSettings\PlayerSettings.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\Reflection\ReflectionExtensions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\ScriptableObject\AdvancedScriptableObject.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\String\StringExtensions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\Texture\TextureExtensions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\Transform\TransformExtensions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\Type\TypeExtensions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Extensions\Scripts\Vector\VectorExtensions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\IO\Scripts\FileOperations.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Parser\Demo\Script\JSON\JSONDemo.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Parser\Demo\Script\Plist\PlistDemo.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Parser\Scripts\JSON\Extensions\JSONParserExtensions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Parser\Scripts\JSON\Internal\Constants\Constants.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Parser\Scripts\JSON\Internal\DataTypes\Enums\Enums.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Parser\Scripts\JSON\Internal\DataTypes\JSONString\JSONString.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Parser\Scripts\JSON\JSONReader.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Parser\Scripts\JSON\JSONUtility.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Parser\Scripts\JSON\JSONWriter.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Parser\Scripts\Plist\Plist.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Plugins\Binding\NativeBinding.Android.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Plugins\Binding\NativeBinding.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\BitConverterEx.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\ExifBitConverter.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\ExifEnums.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\ExifExceptions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\ExifExtendedProperty.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\ExifExtensionMethods.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\ExifFile.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\ExifInterOperability.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\ExifProperty.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\ExifPropertyFactory.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\ExifTag.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\ExifTagFactory.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\JPEGExceptions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\JPEGFile.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\JPEGMarker.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\JPEGSection.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\MathEx.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UI\Script\Base\GUIModalWindow.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UI\Script\Base\GUIScrollView.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UI\Script\GUIDialogs\GUIAlertDialog.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UI\Script\GUIDialogs\GUIDialog.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UI\Script\GUIDialogs\GUIPromptDialog.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UI\Script\GUIExtensions\GUIExtensions.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UI\Script\GUILayoutUtility\UnityGUILayoutUtility.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UI\Script\GUIMenuSystem\GUIMainMenu.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UI\Script\GUIMenuSystem\GUIMenuBase.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UI\Script\GUIMenuSystem\GUISubMenu.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\Coroutine\EditorCoroutine.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\EnumMask\EnumMaskFieldAttribute.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\InspectorButton\Enums.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\InspectorButton\InspectorButtonAttribute.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\InspectorButton\InspectorButtonInfo.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\OnValueChange\ExecuteOnValueChangeAttribute.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\Popup\PopupAttribute.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\CustomProperty\Regex\RegexAttribute.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\Invoke\EditorInvoke.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\PromptWindow\PromptWindow.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\UnityEditor\Scripts\Scheduler\EditorScheduler.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Web\Demo\Scripts\DownloadTextureDemo.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Web\Scripts\Request\Base\Request.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Web\Scripts\Request\Base\WebRequest.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Web\Scripts\Request\FileDownload\DownloadAsset.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Web\Scripts\Request\FileDownload\DownloadTexture.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Web\Scripts\Request\GET\GETRequest.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Web\Scripts\Request\POST\POSTRequest.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Web\Scripts\Response\WebResponse.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\Common\Utility\Web\Scripts\URL\URL.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\DebugPRO\Demo\Scripts\Demo.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\DebugPRO\Plugins\Binding\NativeBinding.Android.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\DebugPRO\Plugins\Binding\NativeBinding.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\DebugPRO\Scripts\Console\Console.Window.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\DebugPRO\Scripts\Console\Console.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\DebugPRO\Scripts\Datatypes\ConsoleLog\ConsoleLog.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\DebugPRO\Scripts\Datatypes\ConsoleTag\ConsoleTag.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\DebugPRO\Scripts\Datatypes\Enums\Enums.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\DebugPRO\Scripts\Utility\UnityDebugUtility\UnityDebugUtility.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\AddonServices\SoomlaGrow\Binding\Android\SoomlaGrowServiceAndroid.Native.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\AddonServices\SoomlaGrow\Binding\Android\SoomlaGrowServiceAndroid.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\AddonServices\SoomlaGrow\Binding\Base\SoomlaGrowService.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\AddonServices\SoomlaGrow\Binding\Base\SoomlaGrowService.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\AddonServices\SoomlaGrow\Binding\UnityEditor\SoomlaGrowServiceEditor.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\AddonServices\SoomlaGrow\Binding\iOS\SoomlaGrowServiceIOS.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\AddonServices\SoomlaGrow\DataTypes\Enums.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\AddonServices\SoomlaGrow\Settings\SoomlaGrowServiceSettings.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\AddonServices\SoomlaGrow\Utility\SoomlaGrowServiceUtility.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\AddressBook\Binding\Android\AddressBookAndroid.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\AddressBook\Binding\Android\AddressBookAndroid.Native.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\AddressBook\Binding\Android\AddressBookAndroid.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\AddressBook\Binding\Base\AddressBook.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\AddressBook\Binding\Base\AddressBook.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\AddressBook\Binding\UnityEditor\AddressBookEditor.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\AddressBook\Binding\iOS\AddressBookIOS.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\AddressBook\Binding\iOS\AddressBookIOS.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\AddressBook\DataTypes\ContactInfo\AddressBookContact.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\AddressBook\DataTypes\ContactInfo\AndroidAddressBookContact.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\AddressBook\DataTypes\ContactInfo\EditorAddressBookContact.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\AddressBook\DataTypes\ContactInfo\iOSAddressBookContact.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\AddressBook\DataTypes\Enums\Enums.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\NetworkConnectivity\Binding\Android\NetworkConnectivityAndroid.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\NetworkConnectivity\Binding\Android\NetworkConnectivityAndroid.Native.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\NetworkConnectivity\Binding\Android\NetworkConnectivityAndroid.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\NetworkConnectivity\Binding\Base\NetworkConnectivity.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\NetworkConnectivity\Binding\Base\NetworkConnectivity.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\NetworkConnectivity\Binding\UnityEditor\NetworkConnectivityEditor.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\NetworkConnectivity\Binding\iOS\NetworkConnectivityIOS.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\NetworkConnectivity\Settings\NetworkConnectivitySettings.Android.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\NetworkConnectivity\Settings\NetworkConnectivitySettings.Editor.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\NetworkConnectivity\Settings\NetworkConnectivitySettings.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Android\SharingAndroid.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Android\SharingAndroid.Mail.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Android\SharingAndroid.Mail.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Android\SharingAndroid.Messaging.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Android\SharingAndroid.Messaging.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Android\SharingAndroid.Native.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Android\SharingAndroid.Social.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Android\SharingAndroid.WhatsApp.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Android\SharingAndroid.WhatsApp.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Android\SharingAndroid.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Base\Sharing.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Base\Sharing.Mail.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Base\Sharing.Mail.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Base\Sharing.Messaging.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Base\Sharing.Messaging.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Base\Sharing.Social.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Base\Sharing.Social.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Base\Sharing.WhatsApp.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Base\Sharing.WhatsApp.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\Base\Sharing.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\UnityEditor\SharingEditor.Mail.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\UnityEditor\SharingEditor.Messaging.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\UnityEditor\SharingEditor.Social.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\UnityEditor\SharingEditor.WhatsApp.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\UnityEditor\SharingEditor.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\iOS\SharingIOS.Mail.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\iOS\SharingIOS.Mail.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\iOS\SharingIOS.Messaging.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\iOS\SharingIOS.Messaging.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\iOS\SharingIOS.Social.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\iOS\SharingIOS.Social.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\iOS\SharingIOS.WhatsApp.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Binding\iOS\SharingIOS.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\DataTypes\Composer\Mail\MailShareComposer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\DataTypes\Composer\Message\MessageShareComposer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\DataTypes\Composer\SocialNetwork\FBShareComposer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\DataTypes\Composer\SocialNetwork\SocialShareComposerBase.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\DataTypes\Composer\SocialNetwork\TwitterShareComposer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\DataTypes\Composer\WhatsApp\WhatsAppComposer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\DataTypes\Enums\Enums.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\DataTypes\Interface\IShareView.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\DataTypes\ShareSheet\ShareSheet.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\DataTypes\ShareSheet\SocialShareSheet.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Sharing\Utility\ShareImageUtility.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\Android\UIAndroid.AlertDialog.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\Android\UIAndroid.AlertDialog.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\Android\UIAndroid.Native.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\Android\UIAndroid.PromptDialog.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\Android\UIAndroid.PromptDialog.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\Android\UIAndroid.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\Base\UI.AlertDialog.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\Base\UI.AlertDialog.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\Base\UI.PromptDialog.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\Base\UI.PromptDialog.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\Base\UI.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\UnityEditor\UIEditor.AlertDialog.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\UnityEditor\UIEditor.AlertDialog.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\UnityEditor\UIEditor.PromptDialog.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\UnityEditor\UIEditor.PromptDialog.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\UnityEditor\UIEditor.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\iOS\UIIOS.AlertDialog.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\iOS\UIIOS.AlertDialog.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\iOS\UIIOS.PromptDialog.Events.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\iOS\UIIOS.PromptDialog.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\Binding\iOS\UIIOS.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\UI\DataTypes\Enums\Enums.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Utility\Binding\Android\UtilityAndroid.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Utility\Binding\Base\Utility.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Utility\Binding\UnityEditor\UtilityEditor.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Utility\Binding\iOS\UtilityIOS.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Features\Utility\Settings\UtilitySettings.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Helpers\PlatformBinding\PlatformBindingHelper.Android.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Plugins\Helpers\PlatformBinding\PlatformBindingHelper.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\AddonServices\OneSignal\Settings\OneSignalServiceSettings.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\AddonServices\OneSignal\Utility\OneSignalServiceUtility.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Internal\Attributes\NotifyNPSettingsOnValueChangeAttribute.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Internal\Handlers\GameServicesIDHandler.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Internal\Misc\Constants\Constants.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Internal\Misc\Object\InstanceIDGenerator.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Internal\Misc\Object\NPObject.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Internal\Misc\Object\NPObjectManager.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Internal\Simulators\AddressBook\EditorAddressBook.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Internal\Simulators\UI\EditorUIHandler.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Internal\Utility\NPEditorUtility.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Internal\Utility\NPUtility.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Listeners\AbstractBillingListener.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Listeners\AbstractNotificatonServiceListener.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Misc\Constants\MIMEType.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Misc\ID\IDContainer.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Misc\ID\PlatformID.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Misc\Utils\AndroidPluginUtility.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Misc\Utils\NPAndroidManifestGenerator.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\NP\NPAssetManager.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\NP\NPBinding.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\NP\NPSettings.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\RateMyApp\RateMyApp.Settings.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\RateMyApp\RateMyApp.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Settings\AddonServices\AddonServicesSettings.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Settings\Application\ApplicationSettings.AddonServices.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Settings\Application\ApplicationSettings.AndroidSettings.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Settings\Application\ApplicationSettings.Features.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Settings\Application\ApplicationSettings.cs" />
+     <Compile Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Scripts\Settings\Application\ApplicationSettings.iOSSettings.cs" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Standard Assets\VoxelBusters\NativePlugins\Readme.txt" />
+     <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\StreamingAssets\QCAR\QR.xml" />
+     <None Include="Assets\Fonts\LuckiestGuy\LICENSE.txt" />
+     <None Include="Assets\EarthSimplePlanets\Shaders\DisplayNightEarthTexture.shader" />
+     <None Include="Assets\Standard Assets\VoxelBusters\Common\Utility\ThirdParty\ExifLib\License.txt" />
+     <None Include="Assets\Standard Assets\VoxelBusters\NativePlugins\link.xml" />
+     <None Include="Assets\Standard Assets\VoxelBusters\NativePlugins\XCodeModData.txt" />
+     <None Include="Assets\Standard Assets\VoxelBusters\NativePlugins\ReleaseNotes.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

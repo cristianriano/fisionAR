@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LeftBallScript.cs">
+    <Files>
+      <File FileName="Assets\Scripts\PendulumController.cs" Line="23" Column="8" />
+      <File FileName="Assets\Scripts\CollisionController.cs" Line="164" Column="22" />
+      <File FileName="Assets\Scripts\menuScript.cs" Line="26" Column="3" />
+      <File FileName="Assets\Scripts\PendulumDisplayScript.cs" Line="37" Column="20" />
+      <File FileName="Assets\Scripts\WebGestureDetection.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CollisionDisplayScript.cs" Line="34" Column="3" />
+      <File FileName="Assets\Scripts\WebPendulumGestureController.cs" Line="47" Column="3" />
+      <File FileName="Assets\Scripts\WebCollisionGestureController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LeftBallScript.cs" Line="16" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
